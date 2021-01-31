@@ -91,6 +91,18 @@ body{
   min-height: 100vh;
 }
 
+#overzicht-sponsors{
+  margin-top: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sponsors h1{
+  text-align: center
+}
+
 .card {
   background-color: white;
   padding: 20px;
