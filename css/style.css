@@ -96,6 +96,15 @@
     display: flex;
   }
 
+
+  .strava-widgets{
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: block;
+  }
+
+
 }
 
 /* Overig */
@@ -146,6 +155,20 @@ footer {
   width: auto;
   height: auto;
 }
+
+
+.strava-widgets{
+  text-align: right;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 8px;
+}
+
+.strava-widgets p{
+  text-align: right;
+}
+
 
 /* Footer Images */
 
