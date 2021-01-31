@@ -69,53 +69,7 @@
   border-radius: 10px;
 }
 
-@media (max-width: 800px){
-  .toggle-button{
-    display: flex;
-  }
 
-  .navbar-links{
-    display: none;
-    width: 100%;
-  }
-
-  .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul{
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .navbar-links li{
-    text-align: center;
-  }
-
-  .navbar-links li a{
-    padding: .5rem, 1rem;
-  }
-
-  .navbar-links.active{
-    display: flex;
-  }
-
-
-  .strava-widgets{
-    text-align: center;
-    width: auto;
-    height: auto;
-    display: block;
-    float: none;
-  }
-
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-
-}
-}
 /* Overig */
 
 *{
@@ -258,4 +212,51 @@ footer {
   width: 100%; 
   background-color: #11698e;
   color: white;
+}
+
+@media (max-width: 800px){
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+    width: 100%;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li{
+    text-align: center;
+  }
+
+  .navbar-links li a{
+    padding: .5rem, 1rem;
+  }
+
+  .navbar-links.active{
+    display: flex;
+  }
+
+  .strava-widgets{
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: block;
+    float: none;
+  }
+
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+
+}
 }
