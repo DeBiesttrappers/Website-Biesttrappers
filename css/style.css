@@ -107,6 +107,7 @@
     width: auto;
     height: auto;
     display: block;
+    float: none;
   }
 
   .leftcolumn, .rightcolumn {
@@ -178,7 +179,7 @@ strong {
 }
 
 #nieuws-titel{
-  background-color: #19456b;
+  background-color: #11698e;
   margin-top: 8px;
   margin-left: 16px;
   height: auto;
