@@ -96,6 +96,7 @@ body{
   padding: 20px;
   margin-top: 8px;
   margin-left: 16px;
+  width: 100%;
 }
 
 /* Clear floats after the columns */
@@ -137,13 +138,14 @@ strong {
   margin-top: 8px;
   margin-left: 16px;
   height: auto;
+  width: 100%;
 }
 
 #nieuws-titel h3{
   vertical-align:middle;
   color: white;
   padding: 8px;
-
+  width: 100%;
 }
 
 #author-footer-text{
@@ -247,16 +249,15 @@ footer {
   }
 
   .strava-widgets{
-    text-align: center;
-    width: auto;
-    height: auto;
-    display: block;
-    float: none;
+    display: none;
   }
 
   .leftcolumn, .rightcolumn {
-    width: 100%;
+    width: 95%;
     padding: 0;
+    margin: auto;
+  }
+}
 
-}
-}
+
+
