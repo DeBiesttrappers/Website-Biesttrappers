@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #454d66;
+  background-color: #11698e;
   color: white;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .navbar-links li:hover{
-  background-color: #555;
+  background-color: #19456b;
 }
 
 .toggle-button{
@@ -111,7 +111,7 @@ body{
 }
 
 strong {
-  color: #009975;
+  color: #16c79a;
 }
 
 #intro{
@@ -119,30 +119,49 @@ strong {
 }
 
 footer {
-  background-color: #454d66;
+  background-color: #11698e;
   color: white;
   text-align: center;
-  position:absolute;
+  position:relative;
+  margin: 0;
   width:100%;
-  bottom:0px;
+  height: 100%;
+}
+
+#author-footer-text{
+  font-size: 12px;
+}
+
+#benito-affiche{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 
 /* Footer Images */
 
 #facebook-image{
   padding-top: 8px;
-  width: 48px;
+  width: auto;
   height: 48px;
 }
 
 #email-image{
   padding-top: 8px;
-  width: 48px;
+  width: auto;
   height: 48px;
 }
 
 #instagram-image{
   padding-top: 8px;
-  width: 48px;
+  width: auto;
+  height: 48px;
+}
+
+#vwb-image{
+  padding-top: 8px;
+  width: auto;
   height: 48px;
 }
