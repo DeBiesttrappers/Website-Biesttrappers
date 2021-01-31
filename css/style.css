@@ -110,18 +110,11 @@ body{
   padding: 0;
 }
 
-#affiche {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 strong {
   color: #009975;
 }
 
-.maps {
+#intro{
   text-align: center;
 }
 
@@ -134,16 +127,22 @@ footer {
   bottom:0px;
 }
 
+/* Footer Images */
+
 #facebook-image{
   padding-top: 8px;
+  width: 48px;
+  height: 48px;
 }
 
 #email-image{
   padding-top: 8px;
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
 }
 
-#intro{
-  text-align: center;
+#instagram-image{
+  padding-top: 8px;
+  width: 48px;
+  height: 48px;
 }
