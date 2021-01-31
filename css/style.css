@@ -19,9 +19,14 @@
 }
 
 .brand-title{
-  font-size: 32px;
+  font-size: 1.5rem;
   margin: .5rem;
   font-weight: bold;
+}
+
+.brand-title a{
+  text-decoration: none;
+  color: white;
 }
 
 .navbar-links ul{
@@ -114,6 +119,11 @@
   font-family: 'FF Tisa', Times, serif;
 }
 
+html{
+  width: 100%;
+  height: 100%;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -139,9 +149,8 @@ footer {
   color: white;
   text-align: center;
   position:relative;
-  margin: 0;
+  bottom: 0;
   width:100%;
-  height: 100%;
 }
 
 #author-footer-text{
