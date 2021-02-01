@@ -243,16 +243,38 @@ footer {
   color: white;
 }
 
+
+
+/* Leden */
+.leden-tabel td{
+  padding: 16px;
+}
+
+#leden-titel{
+  background-color: #11698e;
+  color: white;
+  padding: 8px;
+  margin-left: 16px;
+  height: auto;
+  width: auto;
+}
+
+.leden h1{
+  text-align: center
+}
+
 .legende{
   padding-top: 32px;
   font-size: 12px;
 }
 
 #legende-zwift{
+  padding-top: 8px !important;
   font-size: 12px;
 }
 
 #legende-champ{
+  padding-top: 8px !important;
   font-size: 12px;
 }
 
@@ -275,11 +297,6 @@ footer {
   text-align: left;
   padding-top: 16px;
   padding-left: 16px;
-}
-
-/* Leden */
-.leden-tabel td{
-  padding: 16px;
 }
 
 /* Responsive */
