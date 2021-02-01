@@ -299,6 +299,38 @@ footer {
   padding-left: 16px;
 }
 
+/* Clublokaal */
+
+.main-text{
+  text-align: center;
+}
+
+.leden h1,h2{
+  text-align: center
+}
+
+#sfeerbeeld-1-foto{
+  width: 50%;
+  height: 50%;
+}
+
+#sfeerbeeld-2-foto{
+  width: 23%;
+  height: 23%;
+  float: right;
+  margin-right: 16px;
+}
+
+#foto-voorkant-heerlijkheid{
+  display: block;
+  margin-left: 16px;
+  margin-right: auto;
+  width: 23%;
+  height: 23%;
+  float: left;
+}
+
+
 /* Responsive */
 
 @media (max-width: 800px){
