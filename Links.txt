@@ -8,3 +8,7 @@ eisen/aanpassingen
 - de logos van de hoofd sponsers moeten altijd zichtbaar zijn ip de website (is zo afgesproken met de sponsers)
 - er moet een link staan naar de vwb-site
 
+ToDo:
+sponsers image centreren voor mobile
+alle sponsers opnoemen
+

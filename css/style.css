@@ -1,4 +1,6 @@
 
+/* Fonts */
+
 @import url(//db.onlinewebfonts.com/c/aef726001a07788d4c639a835fa10360?family=FF+Tisa);
 
 @font-face {font-family: "FF Tisa";
@@ -6,6 +8,33 @@
   format("truetype"),
   url("//db.onlinewebfonts.com/t/aef726001a07788d4c639a835fa10360.svg#FF Tisa")
   format("svg"); } 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Algemene Opmaak */
+
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, serif;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+strong {
+  color: #16c79a;
+}
 
 
 /* Navbar */
@@ -72,24 +101,9 @@
 
 /* Overig */
 
-*{
-  box-sizing: border-box;
-  font-family: 'FF Tisa', Times, serif;
-}
 
-html{
-  width: 100%;
-  height: 100%;
-  background-color: #f1f1f1;
-}
 
-body{
-  margin: 0;
-  padding: 0;
-  position: relative;
-  min-height: 100%;
-  min-height: 100vh;
-}
+/* SponsorPagina */
 
 #overzicht-sponsors{
   margin-top: 32px;
@@ -102,6 +116,8 @@ body{
 .sponsors h1{
   text-align: center
 }
+
+/* BlogInhoud */
 
 .card {
   background-color: white;
@@ -139,21 +155,6 @@ body{
   padding-left: 20px;
 }
 
-strong {
-  color: #16c79a;
-}
-
-#intro{
-  text-align: center;
-  margin: 8px,8px;
-}
-
-#banner-image{
-  width: 100%;
-  height: auto;        
-  background-size: cover;
-}
-
 #nieuws-titel{
   background-color: #11698e;
   margin-left: 16px;
@@ -168,8 +169,10 @@ strong {
   width: 100%;
 }
 
-#author-footer-text{
-  font-size: 12px;
+#banner-image{
+  width: 100%;
+  height: auto;        
+  background-size: cover;
 }
 
 .strava-widgets{
@@ -185,7 +188,7 @@ strong {
 }
 
 
-/* Footer Images */
+/* Footer */
 
 #facebook-image{
   padding-top: 8px;
@@ -227,6 +230,10 @@ footer {
   height: auto;
 }
 
+#author-footer-text{
+  font-size: 12px;
+}
+
 #footer-container {
   clear: both; 
   text-align: center;
@@ -235,6 +242,47 @@ footer {
   background-color: #11698e;
   color: white;
 }
+
+.legende{
+  padding-top: 32px;
+  font-size: 12px;
+}
+
+#legende-zwift{
+  font-size: 12px;
+}
+
+#legende-champ{
+  font-size: 12px;
+}
+
+.champ{
+  font-weight: bold;
+  color: #DAA520;
+}
+
+.zwift-champ{
+  font-weight: bold;
+  color: darkorange;
+}
+
+.leden-tabel table{
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.leden-tabel th{
+  text-align: left;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+/* Leden */
+.leden-tabel td{
+  padding: 16px;
+}
+
+/* Responsive */
 
 @media (max-width: 800px){
   .toggle-button{
